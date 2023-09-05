@@ -9,17 +9,16 @@
 
 
 
-
 nav{
-  width: 100%;
-  background-color:#fbfbfd;
+ background-color:#fbfbfd;;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 13px;
 
-
 }
+ 
+
 
 
 nav ul
@@ -27,6 +26,7 @@ nav ul
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 
@@ -49,6 +49,11 @@ nav ul li a{
 
 
 
+
+
+
+
+
 .afthernav{
   border: 1px solid white;
   width: 100%;
@@ -63,6 +68,11 @@ nav ul li a{
 }
 
 
+
+
+
+
+
 .afthernav a
 {
   text-decoration: none;
@@ -72,8 +82,13 @@ nav ul li a{
 
 
 
+
+
+
+
+
 .gallery{
-  display: flex;
+    display: flex;
   justify-content: center;
   text-align: center;
 }
@@ -130,6 +145,14 @@ nav ul li a{
 }
 
 
+
+
+
+
+
+
+
+
 .gallery1{
   display: flex;
   justify-content: center;
@@ -165,6 +188,11 @@ nav ul li a{
   padding: 40px;
 }
 
+
+
+
+
+
   
 .iphonese{
 
@@ -191,6 +219,7 @@ nav ul li a{
 
 }
 
+
 .iphonese h2{
   color:blue;
   font-size: 44px;
@@ -210,11 +239,11 @@ nav ul li a{
  
 
 .imgse{
-  background-image:url(img/iphonese.jpg);
+    background-image:url(img/iphonese.jpg);
   background-size: 494px 830px;
   width: 494px;
   height: 830px;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 
@@ -244,26 +273,34 @@ nav ul li a{
 
 
 
+
+
+
 .container{
-  position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 
-.container img{
-max-width: 100%;
-height: auto;
-border-radius: 21px;
-
-
+.containerimage{
+  background-image: url(img/guided_tour__c40f88on9o8y_large.jpg);
+  background-repeat: no-repeat;
+  width: 1412px;
+  height: 814px;
+  background-size: 1412px 814px;
+  border-radius: 34px;
+  background-position: center;
+  
 }
-
 .guidtext{
-  position: absolute;
-  top: 35%;
-  right: 59%;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 320px;
+  padding-right: 846px;
+  text-align: center;
 }
 
 .guidtext h4{
@@ -283,17 +320,26 @@ border-radius: 21px;
 }
 
 
- .button3{
+
+
+.button3{
+  
   border-radius: 22px;
   border: none;
   color: white;
   padding: 12px 50px;
-  font-size: 17px;
+  font-size: 15px;
   margin: 10px 5px;
   cursor: pointer;
   text-decoration: none;
   color:black
  }
+
+
+
+
+
+
 
 .h1{
   display: flex;
@@ -320,6 +366,8 @@ border-radius: 21px;
 
   }
    
+
+
   
  .gallery3{
 
@@ -543,6 +591,7 @@ border-radius: 21px;
 }
 
 
+
 .containerbig{
   display: flex;
   justify-content: center;
@@ -730,6 +779,9 @@ border-radius: 21px;
 }
 
 
+
+
+
 .whyapple{
  display: flex;
  justify-content: center;
@@ -776,6 +828,13 @@ border-radius: 21px;
 }
 
 
+
+
+
+
+
+
+
 .feature{
    display: flex;
    justify-content: center;
@@ -793,14 +852,14 @@ border-radius: 21px;
 
 
 
-
-
 .container1{
   display: flex;
   justify-content:center;
   flex-direction: row;
-  background-color: #fbfbfd ;
-  margin: 10px;
+  background:white;
+    margin: 10px;
+    box-sizing: border-box;
+
 }
 
 
@@ -857,11 +916,9 @@ flex-direction: column;
   background-repeat: no-repeat;
     width: 633px;
   height: 463px;
+  background-size: 633px 463px;
   text-align: center;
-  background-color: #fbfbfd;
 }
-
-
 
 
 
@@ -1520,14 +1577,10 @@ align-items: center;
 
 
 .containerimg6{
-  background-repeat: no-repeat;
   width: 675px;
   height: 592px;
-  background-size: 105px 100px;
   text-align: center;
   padding: 50px;
-  min-height: 100px;
-  background-position: bottom;
   margin: 10px;
   background-color: #fbfbfd;
 
@@ -1554,15 +1607,172 @@ padding: 13px;
 
 
 .games{  
-    padding-top: 171px;
+  display: grid;
+  grid-template-columns: repeat(5,105px);
+  grid-template-rows: repeat(4,105px);
+  margin-top: 86px;
+  grid-gap: 17px;
+}
+
+.grid1{
+  background-image: url(img/454x454\ \(13\).jpg);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid2{
+  background-image: url(img/454x454\ \(17\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid3{
+  background-image: url(img/454x454\ \(2\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid4{
+  background-image: url(img/454x454\.jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+}
+.grid5{
+  background-image: url(img/454x454\ \(10\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid6{
+  background-image: url(img/454x454\ \(8\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid7{
+  background-image: url(img/454x454\ \(10\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid8{
+  background-image: url(img/454x454\ \(11\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+ 
+.grid9{
+  background-image: url(img/454x454\ \(12\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid10{
+  background-image: url(img/454x454\ \(13\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
 
 }
 
 
+.grid11{
+  background-image: url(img/454x454\ \(14\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
 
+}
 
+.grid12{
+  background-image: url(img/454x454\ \(15\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
 
+}
 
+.grid13{
+  background-image: url(img/454x454\ \(16\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid14{
+  background-image: url(img/454x454\ \(1\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid15{
+  background-image: url(img/454x454\ \(1\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
+
+.grid16{
+  background-image: url(img/454x454\ \(1\).jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  width: 105px;
+  height: 105px;
+  border-radius: 25px;
+
+}
 
 
 
@@ -1570,6 +1780,9 @@ padding: 13px;
   width: 105px;
   height: 105px;
 }
+
+
+
 
 .img1{
   border-radius: 25px;
@@ -1937,3 +2150,8 @@ display: flex;
 .icons img{
   padding-top: 15px;
 }
+
+
+
+
+

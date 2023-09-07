@@ -26,32 +26,16 @@
     }
   }
   
-
-
-  @media screen and (max-width:995px){
-
-    .iphone14text{
-        width: 100%;
-        padding: 45px;
-        color: black;
-      }
-      
-      .buttoniphone{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-      }
-      
-
-    .image1 img{
-      width: 500px;
-      
-     }
-  
-     }
     
+
+
+   @media screen and (max-width:502px){
+    .image1 img{
+      width: 50px;
+    }
+   }
+
+
   
   
   @media screen and (max-width:767px){
@@ -60,6 +44,14 @@
   
     }
   }
+
+  @media screen and (max-width:502px){
+    .image1 img{
+      width: 100%;
+    }
+  }
+
+
   @media screen and (max-width:995px) {
     .image2 img {
       width:500px
@@ -82,6 +74,34 @@
       margin: 0;
     }
   }
+
+
+
+@media screen and (max-width:460px){
+
+  .gallery1{
+    width: 100%;
+    margin: 0;
+  }
+
+  .iphone14text1{
+    width: 100%;
+  }
+
+
+
+  .image2 img{
+    width: 100%;
+ }
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -129,7 +149,106 @@
   }
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:502px){
+    .iphonese {
+     
+        height: 358px;
+       margin: 0;
+       padding: 0;
+    }
+    
+        .setext{
+            
+            padding: 14px;
+            display: flex;
+         }
+         .iphonese h1{
+            color: blue;
+            font-size: 18px;
+            padding-left: 10px;
+          }
+
+  .iphonese h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
   
+  .iphonese p{
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  
+  }
+  .icon  {
+    padding-right: 7px;
+    padding-top: 39px;
+  }
+ 
+  .learnmore1{
+    font-size: 15px;
+  }
+
+
+
+  }
+    
+  @media screen and (max-width:406px){
+    .iphonese{
+      width: 100%; 
+    }  
+    .setext {
+      width: 100%;
+      padding-left: 88px;
+    }
+  
+  
+  
+    .imgse {
+      background-size: 187px 356px;
+        }
+  
+    .iphonese h1{
+      color: blue;
+      font-size: 24px;
+    }
+  
+  .iphonese h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+  
+  .iphonese p{
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  
+  }
+  .icon{
+  
+  padding-right: 7px;
+  }
+}
+  
+  
+  
+  
+  
+
 
   
   @media screen and (max-width:767px){
@@ -166,11 +285,82 @@
         color: white;
         font-size: 34px;
       }
-     }
      .button{
       border-radius: 22px;
       font-size: 10px;
     }
+
+  }
+
+
+
+
+
+
+
+
+  @media screen and (max-width:637px){
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  .containerimage{
+
+ background-size: 526px 429px;
+      border-radius: 34px;
+      background-position: center;
+      height: 501px;
+    }
+
+
+    .guidtext{
+      
+      padding-right: 240px;
+      padding-top: 149px;
+    }
+
+}
+
+
+@media screen and (max-width:524px){
+  .containerimage{
+
+    background-size: 494px 400px;
+         border-radius: 34px;
+         background-position: center;
+         height: 501px;
+         width: 100%;
+       }
+
+
+       .guidtext{
+      
+        padding-right:134px;
+        padding-top: 149px;
+      }
+     
+
+      .guidtext h4{
+        font-size: 19px;
+      }
+
+     .guidtext h1 {
+      font-size: 22px;
+     }
+
+
+     .guidtext h2{
+      font-size: 20px;
+     }
+
+
+
+    }
+
+     
+
 
 
     @media screen and (max-width:767px){
@@ -261,6 +451,7 @@
   
     .whyimg{
      background-size: cover;
+     height: 314px;
      width: 100%;
      margin: 0;
     }
@@ -269,6 +460,10 @@
       font-size: 20px;
     }
     
+
+ 
+
+
     .whyimg p {
       color:#1d1d1f;
       font-size:  14px;
@@ -288,12 +483,82 @@
 
   }
   
+
+
+  @media screen and (max-width:750px){
+
+    .whyapple{
+      width: 100%;
+    }
+  
+  
+    .whyimg{
+      background-size: 400px 400px;
+      height: 314px;
+     width: 100%;
+     margin: 0;
+    }
+  
+    .whyimg h1 {
+      font-size: 20px;
+    }
+    
+
+ 
+
+
+    .whyimg p {
+      color:#1d1d1f;
+      font-size:  14px;
+    }
+  
+  
+   .whyimg a {
+     font-size:18px;
+     
+   }
+  
+
+   .textapple{
+    width: 100%;
+   }
+
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   @media screen and (max-width:767px){
      
  
     .feature{
       width: 100%;
+      height: 64px;
     }
 
     .feature h1 {
@@ -314,15 +579,95 @@
   
     .magsafe {
      width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
       
     }
   
     .magsafeimg{
       background-size: cover;
         width: 100%;
+        
     }
   }
   
+
+
+
+  @media screen and (max-width:640px){
+  
+    .container1{
+        width: 100%;
+       flex-direction: column; 
+       margin: 0;
+    }
+  
+    .magsafe {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      
+    }
+  
+    .magsafeimg{
+      background-image: url(img/magsafe__bfji5hb1mqsy_large.jpg);
+      background-size: 556px 300px;
+        width: 100%;
+        height: 306px;
+    }
+
+
+        .magsafe h1{
+          padding-right: 28px;
+        }
+    }
+  
+    @media screen and (max-width:406px){
+  
+      .container1{
+          width: 100%;
+         flex-direction: column; 
+         margin: 0;
+      }
+    
+      .magsafe {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+        
+      }
+    
+      .magsafeimg{
+        background-image: url(img/magsafe__bfji5hb1mqsy_large.jpg);
+        background-size: 339px 300px;
+          width: 100%;
+          height: 306px;
+      }
+  
+  
+          .magsafe h1{
+            padding-right: 28px;
+          }
+
+          .magsafe p {
+            padding-left: 175px;
+            font-size: 15px;
+          }
+
+          .magsafe a { 
+
+            padding-left: 222px;
+      }
+    
+  
+    }
+
+
+
+
   
   @media screen and (max-width:767px){
     .magsafeimg1{
@@ -336,7 +681,7 @@
     flex-direction: column;
     width: 100%;
     padding-right: 96px;
-   }
+     }
 
 
 
@@ -357,10 +702,45 @@
     flex-direction: column;
    }
 
+  } 
+  
+  
+  @media screen and (max-width:704px){
+    .magsafeimg1{
+      background-size: 404px 458px;
+     }
 
 
+     .magsafe1{
+      width: 100%;
+     }
 
+
+     .magsafe1 p{
+      width: 100%;
+      font-size: 15px;
+  
+    }
+
+
+    .magsafe1 .more {
+      padding-left: 43px;
+    }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:767px) {
 
@@ -400,6 +780,22 @@
     
 
 }
+
+
+
+@media screen and (max-width:404px){
+  .containerimg{
+    width: 100%;
+    background-size: 395px 245px;
+  }
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:767px){
@@ -479,6 +875,65 @@ margin: 69px;
 }
 
 
+
+@media screen and (max-width:404px){
+
+  .container3{
+    width: 100%;
+  }
+
+
+
+
+
+
+  .containerimg1{
+    
+    background-size: 590px 360px;
+  }
+  .containerimg1 h1{
+    font-size: 40px;
+  }
+  .containerimg1 p{
+    font-size: 21px;
+  }
+   
+
+
+  .twoimg{
+    width: 100%;
+  }
+
+
+  .containerimg2{
+    padding: 42px;
+    background-size: 392px 357px;
+  }
+
+
+  .containerimg3{
+    width: 100%;
+    background-size: 398px 600px;
+    }
+
+    .button4 {
+      padding-top: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:767px){
 
   .feature3{
@@ -523,6 +978,25 @@ margin: 69px;
   }
 
 
+ @media screen and (max-width:404px){
+  .container4{
+    width: 100%;
+  }
+  .containerimg4 {
+    background-size: 401px 429px;
+
+ }
+ }
+
+
+
+
+
+
+
+
+
+
   @media screen and (max-width:767px){
     
  
@@ -539,6 +1013,54 @@ margin: 69px;
 
 
   }
+
+
+@media screen and (max-width:404px){
+  .containerimg5 {
+    width: 100%;
+    background-size: 493px 600px;
+  
+}
+
+.twoimg3{
+  width: 100%;
+}
+
+
+
+.containerimg6{
+  width: 100%;
+ 
+}
+
+.games{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.containerimg7{
+ width: 100%;
+ background-size: 397px 288px;
+}
+
+
+
+.containerimg8 {
+  width: 100%;
+  background-size: 393px 319px;
+}
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -617,6 +1139,41 @@ margin: 69px;
     }
 
   }
+
+
+
+
+
+@media screen and (max-width:404px){
+ .containerlast{
+  width: 100%;
+ }
+ .magsafelast{
+  width: 100%;
+
+ }
+ .magsafelast p{
+  padding-right: 260px;
+ }
+
+
+ .magsafelast a{
+  padding-right: 260px;
+ }
+
+
+ .magsafeimglast{
+  background-size: 405px 383px;
+ }
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:767px) {
   
